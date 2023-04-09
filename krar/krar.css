@@ -19,6 +19,7 @@ button{
 	margin:2rem;
 	border-radius:10%;
 }
-.kbr{
-	background-color:yellow;
+.click{
+	box-shadow:10px 10px;
+	opacity:0.5;
 }
