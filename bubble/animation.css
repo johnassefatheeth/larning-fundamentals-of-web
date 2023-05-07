@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding :0;
+ }
+ .ab{
+	 height: 100%;
+	 width: 100%;
+	 background:linear-gradient(180deg,darkblue 5%,dodgerblue 50%,navy);
+	 position:absolute;
+ }
+ .ab h1{
+	 top:50%;
+	 left:50%;
+	 transform: translate(-50%,-50%);
+	 position:absolute;
+	 color:plum;
+	 font-family:Edwardian Script ITC;
+	 font-size:50px;
+	 font-weight:888;
+	 letter-spacing:2px;
+	 word-spacing:4px;
+ }
+ .work{
+	 height:70px;
+	 width:70px;
+	 border:0.5px solid;
+	 border-color: white;
+	 border-radius:100%;
+	 position:absolute;
+	 top:20%;
+	 right:20%;
+	 animation: animate 4s linear infinite;
+ }
+ .work:hover{
+	 height:0px;
+	 width:0px;
+	 border-radius;100%;
+ }
+.point{
+	 height:15px;
+	 width:15px;
+	 border-radius:100%;
+	 position:relative;
+	 background:white;
+	 top:25%;
+	 left:25%;
+ }
+ .work:nth-child(1){
+	 top:20%;
+	 left:29%;
+	 animation: animate 8s linear infinite;
+	 
+ }
+ .work:nth-child(2){
+	 top:70%;
+	 left:69%;
+	 animation: animate 4s linear infinite;
+	 
+ }
+ .work:nth-child(3){
+	 top:90%;
+	 left:9%;
+	 animation: animate 3s linear infinite;
+	 
+ }
+ .work:nth-child(4){
+	 top:40%;
+	 left:49%;
+	 animation:animate 4s linear infinite;
+	 
+ }
+ .work:nth-child(5){
+	 top:15%;
+	 left:83%;
+	 animation:animate 6s linear infinite;
+	 
+ }
+ .work:nth-child(6){
+	 top:35%;
+	 left:35%;
+	 animation:animate 7s linear infinite;
+	 
+ }
+ .work:nth-child(7){
+	 top:30%;
+	 left:9%;
+	 animation:animate 5s linear infinite;
+	 
+ }
+ .work:nth-child(8){
+	 top:42%;
+	 left:42%;
+	 animation:animate 8s linear infinite;
+	 
+ }
+ .work:nth-child(9){
+	 top:88%;
+	 left:78%;
+	 animation:animate 3s linear infinite;
+	 
+ }
+ 
+ .work:nth-child(10){
+	 top:88%;
+	 left:5%;
+	 animation:animate 6s linear infinite;
+	 
+ }
+ 
+ .work:nth-child(11){
+	 top:20%;
+	 left:30%;
+	 animation:animate 4s linear infinite;
+	 
+ }
+ 
+ .work:nth-child(12){
+	 top:16%;
+	 left:7%;
+	 animation:animate 3s linear infinite;
+	 
+ }
+ 
+ .work:nth-child(13){
+	 top:16%;
+	 left:68%;
+	 animation:animate 5s linear infinite;
+	 
+ }
+ 
+ .work:nth-child(14){
+	 top:66%;
+	 left:42%;
+	 animation:animate 6s linear infinite;
+	 
+ }
+ .work:nth-child(15){
+	 top:92%;
+	 left:50%;
+	 animation:animate 5s linear infinite;
+	 
+ }
+ 
+ .work:nth-child(16){
+	 top:75%;
+	 left:78%;
+	 animation:animate 7s linear infinite;
+	 
+ }
+ 
+ .work:nth-child(17){
+	 top:88%;
+	 left:25%;
+	 animation:animate 8s linear infinite;
+	 
+ }
+ @keyframes animate{
+	 0%{
+		 transform: scale(0) translateY(0) rotate(0deg);
+	 }
+	 100%{
+		 transform: scale(2) translateY(-100px) rotate(270deg);
+	 }
+ }
